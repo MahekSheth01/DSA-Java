@@ -15,7 +15,6 @@ class NextPalindrome {
      static ArrayList<Integer> nextPalindrome(int[] num) {
         int n = num.length;
 
-        // Increase the number by 1 and check for palindrome
         while (checkPalindrome(num) == 0) {
             int carry = 1;
             for (int i = n - 1; i >= 0; --i) {
@@ -37,7 +36,6 @@ class NextPalindrome {
             }
         }
 
-        // Convert the array to ArrayList
         ArrayList<Integer> result = new ArrayList<>();
         for (int digit : num) {
             result.add(digit);
