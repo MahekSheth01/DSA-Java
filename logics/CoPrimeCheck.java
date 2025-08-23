@@ -6,12 +6,12 @@ public class CoPrimeCheck {
         return gcd(b, a % b);
     }
 
-    static boolean isCoPrime(int a, int b) {
+    static boolean isCoPrime1(int a, int b) {
         return gcd(a, b) == 1;
     }
 
     public static void main(String[] args) {
-        System.out.println(isCoPrime(14, 15)); 
-        System.out.println(isCoPrime(14, 21));
+        System.out.println(isCoPrime1(14, 15)); 
+        System.out.println(isCoPrime1(14, 21));
     }
 }
