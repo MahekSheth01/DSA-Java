@@ -5,22 +5,22 @@ import java.util.Queue;
 
 public class BuiltInQueueExample {
     public static void main(String[] args) {
-        Queue<Integer> queue = new LinkedList<>();
+        Queue<Integer> queue1 = new LinkedList<>();
 
         // Add elements
-        queue.add(10);
-        queue.add(20);
-        queue.add(30);
+        queue1.add(10);
+        queue1.add(20);
+        queue1.add(30);
 
         // Peek (view front element)
-        System.out.println("Front element: " + queue.peek());
+        System.out.println("Front element: " + queue1.peek());
 
         // Remove elements
-        System.out.println("Removed: " + queue.remove());
+        System.out.println("Removed: " + queue1.remove());
 
         // Iterate
         System.out.println("Remaining Queue:");
-        for (int item : queue) {
+        for (int item : queue1) {
             System.out.println(item);
         }
     }
