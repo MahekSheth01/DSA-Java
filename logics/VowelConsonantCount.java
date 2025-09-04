@@ -2,8 +2,8 @@ package logics;
 
 public class VowelConsonantCount {
     public static void main(String[] args) {
-        String str = "Hello World";
-        str = str.toLowerCase(); // Make it case-insensitive
+        String str = "Mahek sheth";
+        str = str.toLowerCase(); 
 
         int vowels = 0, consonants = 0;
 
