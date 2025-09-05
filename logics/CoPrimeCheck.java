@@ -11,7 +11,7 @@ public class CoPrimeCheck {
     }
 
     public static void main(String[] args) {
-        System.out.println(isCoPrime1(14, 15)); 
-        System.out.println(isCoPrime1(14, 21));
+        System.out.println(isCoPrime1(12, 15)); 
+        System.out.println(isCoPrime1(12, 21));
     }
 }
