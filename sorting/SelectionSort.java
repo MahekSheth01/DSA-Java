@@ -2,8 +2,7 @@ package sorting;
 
 public class SelectionSort {
     public static void main(String[] args) {
-        int a[]={13,53,2,12,4};
-        //Selection Sort
+        int a[]={13,5,1,12,4};
         for(int i=0;i<a.length-1;i++){
             int small=i;
             for(int j=i+1;j<a.length;j++){
