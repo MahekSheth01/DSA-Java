@@ -15,7 +15,7 @@ public class Permutations {
     }
 
     public static void main(String[] args) {
-        String s = "ABC";
+        String s = "XYZW";
         System.out.println("All permutations of " + s + " are:");
         permute(s, "");
     }
