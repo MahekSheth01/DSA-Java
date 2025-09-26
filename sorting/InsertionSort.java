@@ -2,7 +2,7 @@ package sorting;
 
 public class InsertionSort {
     public static void main(String[] args) {
-        int a[]={22,3,4,5,1,24};
+        int a[]={22,3,4,5,1,14};
         //Insertion Sort
         for(int i=1;i<a.length;i++){
             int current=a[i];
