@@ -2,7 +2,7 @@ package logics;
 
 public class Palindrome {
     public static void main(String[] args) {
-        int n=21;
+        int n=211;
         int temp=n;
         int sum=0;
         while(n!=0){
